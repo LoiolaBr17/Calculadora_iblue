@@ -1,19 +1,48 @@
 # Calculadora
 
-## Project setup
+## Instalação do Projeto
+
+Dentro da pasta api rode no terminal o comando:
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+Dentro da pasta frontend rode no terminal o comando:
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+yarn install
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Para rodar o Projeto
+
+1. Dentro da pasta api rode no terminal o comando:
+```
+npm start
+```
+
+2. Dentro da pasta frontend rode no terminal o comando:
+```
+npm run serve
+```
+
+A aplicação estará disponível na porta 8080.
+
+## Para rodar os testes unitários:
+1. Instale globalmente o mocha
+```
+npm mocha -g
+```
+2. Dentro da pasta api rode no terminal o comando:
+```
+npm run test
+```
+
+
+
+## Sobre o Projeto
+
+### Tecnologias utilizadas: 
+
++ Node.js
++ Express.js
++ Vue.js
+
